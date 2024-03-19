@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c13ea386edbf01d439887051d0e2b914, type: 3}
+  m_Name: TVSchedule2
+  m_EditorClassIdentifier: 
+  iteration: 0
+  schedule:
+  - duration: 10
+    screenMat: {fileID: 2100000, guid: 6d9117f554d728449a762b124326dd4f, type: 2}
+    blockAudio: {fileID: 8300000, guid: 05ec43e8897e00d4887e33b04a84789e, type: 3}
+    tvChoreographer: stationJingle
+  - duration: 46
+    screenMat: {fileID: 2100000, guid: 83fecd616c8da5e47a0c629c39a297e3, type: 2}
+    blockAudio: {fileID: 8300000, guid: d2eaee9d0a8c5d04a878a06c1b362fd9, type: 3}
+    tvChoreographer: newsDesk
